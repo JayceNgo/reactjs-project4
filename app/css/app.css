@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    @apply bg-white dark:bg-gray-950;
+
+    @media (prefers-color-scheme: dark) {
+        color-scheme: dark;
+    }
+}
+
+body {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sora", sans-serif;
+}
+
+a {
+    color: inherit;
+    border: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-style: inherit;
+    color: inherit;
+}
