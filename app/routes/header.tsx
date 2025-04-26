@@ -4,7 +4,7 @@ export default function header() {
             <div className="container">
                 <div className="header_inner flex justify-between items-center">
                     {/* logo */}
-                    <img src="/imgs/logo.svg" alt="Lucy" className="logo" />
+                    <img src="/img/logo.svg" alt="Lucy" className="logo" />
 
                     {/* Navbar */}
                     <nav className="navbar">
