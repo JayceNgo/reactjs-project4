@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-
+import "../../public/imgs/logo.svg";
 export function meta({}: Route.MetaArgs) {
     return [
         { title: "New React Router App" },
@@ -9,9 +9,9 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
     return (
-        <div>
-            <h2>Home</h2>
-            <p>Welcome to the home page!</p>
-        </div>
+        <>
+            <p>home</p>
+            <p>home</p>
+        </>
     );
 }
