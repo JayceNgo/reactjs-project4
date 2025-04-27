@@ -1,8 +1,9 @@
 export default function Header() {
     return (
         <div className="header">
-            <div className="container">
-                <div className="header_inner flex justify-between items-center">
+            <div className="container-content">
+                {/* flex justify-between items-center */}
+                <div className="header_inner ">
                     {/* logo */}
                     <a href="/">
                         <img src="/img/logo.svg" alt="Lucy" className="logo" />

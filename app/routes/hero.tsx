@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section className="hero">
-            <div className="container">
+            <div className="container-content">
                 <div className="hero__inner flex items-center justify-between">
                     {/* <!-- Hero media --> */}
                     <div className="hero__media">
