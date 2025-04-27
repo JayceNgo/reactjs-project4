@@ -1,26 +1,28 @@
-export default function header() {
+export default function Header() {
     return (
         <div className="header">
             <div className="container">
                 <div className="header_inner flex justify-between items-center">
                     {/* logo */}
-                    <img src="/img/logo.svg" alt="Lucy" className="logo" />
+                    <a href="/">
+                        <img src="/img/logo.svg" alt="Lucy" className="logo" />
+                    </a>
 
                     {/* Navbar */}
                     <nav className="navbar">
                         <ul className="navbar__list flex">
                             <li className="navbar__item">
-                                <a href="#!" className="navbar__link">
+                                <a href="/" className="navbar__link">
                                     Home
                                 </a>
                             </li>
                             <li className="navbar__item">
-                                <a href="#!" className="navbar__link">
+                                <a href="/about" className="navbar__link">
                                     About
                                 </a>
                             </li>
                             <li className="navbar__item">
-                                <a href="#!" className="navbar__link">
+                                <a href="/service" className="navbar__link">
                                     Services & Rates
                                 </a>
                             </li>

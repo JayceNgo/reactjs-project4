@@ -9,7 +9,7 @@ export default function Hero() {
                             <img
                                 src="/img/pet-01.png"
                                 alt=""
-                                className="hero__img"
+                                className="hero__img animate__animated animate__backInLeft"
                             />
 
                             {/* <!-- Decorators --> */}
@@ -29,11 +29,11 @@ export default function Hero() {
                             <img
                                 src="/img/pet-02.png"
                                 alt=""
-                                className="hero__img"
+                                className="hero__img animate__animated animate__backInUp"
                             />
                         </div>
                         {/* Hero List */}
-                        <div className="hero__list">
+                        <div className="hero__list animate__animated animate__backInUp">
                             {/* <!-- Hero list item 1 --> */}
                             <section className="hero-list-item ">
                                 <img
@@ -75,18 +75,18 @@ export default function Hero() {
 
                     {/* <!-- Hero content --> */}
                     <section className="hero__content">
-                        <h1 className="hero__heading">
+                        <h1 className="hero__heading animate__animated animate__backInRight">
                             Established & Trusted Pet Care Service
                         </h1>
-                        <p className="hero__desc">
+                        <p className="hero__desc animate__animated animate__backInRight">
                             Discover a wide variety of Pawsitive services to
                             choose from, including daycare, private walks,
                             office duty and spa.
                         </p>
-                        <div className="hero__row">
+                        <div className="hero__row animate__animated animate__backInUp">
                             <a
                                 href="#!"
-                                className="btn btn--primary hero__cta-btn"
+                                className="btn btn--primary hero__cta-btn animate__animated animate__backInTop"
                             >
                                 Book a Meet
                                 <span className="btn__icon">
@@ -106,7 +106,7 @@ export default function Hero() {
                                     </svg>
                                 </span>
                             </a>
-                            <a href="#!" className="hero__cta-link">
+                            <a href="#!" className="hero__cta-link ">
                                 Schedule a Call
                             </a>
                         </div>

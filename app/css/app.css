@@ -90,7 +90,7 @@ select {
 .btn--primary {
     color: #fff;
     background: var(--primary-color);
-    border-color: var(--primary-color);
+    /* border-color: var(--primary-color); */
 }
 
 .btn__icon {
@@ -272,10 +272,16 @@ select {
 }
 
 .hero__cta-link {
+    padding: 20px 0;
     margin-left: 24px;
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 1;
     text-decoration: underline;
     color: #000958;
+    transition: 0.5s ease;
+}
+
+.hero__cta-link:hover {
+    transform: translate(0, -10px);
 }
