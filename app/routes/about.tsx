@@ -104,7 +104,7 @@ export default function About() {
                                     className="about__decor-img"
                                 />
                                 <img
-                                    src="/img/a bout-decor-08.svg"
+                                    src="/img/about-decor-08.svg"
                                     alt=""
                                     className="about__decor-img"
                                 />

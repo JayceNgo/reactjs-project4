@@ -57,8 +57,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
     return (
         <>
-            <Header />
-            <Outlet />
+            <header className="header sticky top-0 z-10  ">
+                <Header />
+            </header>
+            <body>
+                <Outlet />
+            </body>
         </>
     );
 }
