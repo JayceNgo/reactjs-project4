@@ -28,7 +28,7 @@ export default function Header() {
                                 </a>
                             </li>
                             <li className="navbar__item">
-                                <a href="#!" className="navbar__link">
+                                <a href="/review" className="navbar__link">
                                     Reviews
                                 </a>
                             </li>
