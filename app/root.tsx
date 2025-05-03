@@ -7,7 +7,7 @@ import {
     ScrollRestoration,
 } from "react-router";
 import Header from "./routes/header";
-
+import Footer from "./routes/footer";
 import type { Route } from "./+types/root";
 // reset css
 import "./css/reset.css";
@@ -63,6 +63,9 @@ export default function App() {
             <body>
                 <Outlet />
             </body>
+            <footer className="footer">
+                <Footer />
+            </footer>
         </>
     );
 }
