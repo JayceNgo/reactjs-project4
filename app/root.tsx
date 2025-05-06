@@ -13,6 +13,8 @@ import type { Route } from "./+types/root";
 import "./css/reset.css";
 // App CSS
 import "./css/app.css";
+// Responsive CSS
+import "./css/reponsive.css";
 // Animate Css
 import "animate.css";
 
@@ -57,9 +59,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
     return (
         <>
+            {/* PC header */}
             <header className="header sticky top-0 z-10  ">
                 <Header />
             </header>
+
             <body>
                 <Outlet />
             </body>

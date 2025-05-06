@@ -120,6 +120,7 @@ select {
     font-size: 1.6rem;
     line-height: 1.875; /* 187.5% */
 }
+
 /* Header */
 .header {
     background: var(--color-bg1);
