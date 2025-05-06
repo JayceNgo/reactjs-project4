@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="footer__inner">
                 <div className="footer__left">
                     {/* <!-- Logo --> */}
-                    <img src="./assets/img/logo.svg" alt="" />
+                    <img src="/img/logo.svg" alt="" />
 
                     {/* <!-- Subscribe form --> */}
                     <form action="" className="subscribe-form">
