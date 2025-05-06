@@ -85,6 +85,13 @@ export default function Header() {
                                         Reviews
                                     </a>
                                 </li>
+                                <div className="meme-container">
+                                    <img
+                                        src="/img/meme.jpg"
+                                        alt=""
+                                        className="meme-img"
+                                    />
+                                </div>
                             </ul>
                         </div>
                     </nav>
@@ -118,11 +125,6 @@ export default function Header() {
                                 Reviews
                             </a>
                         </li>
-                        {/* <li className="navbar__item">
-                                <a href="#!" className="navbar__link">
-                                    Contacts us
-                                </a>
-                            </li> */}
                     </ul>
                 </nav>
 

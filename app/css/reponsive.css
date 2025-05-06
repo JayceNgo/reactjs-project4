@@ -91,6 +91,10 @@
         color: white;
     }
 
+    .meme-container {
+        margin-top: 100px;
+    }
+
     /* hero */
     .hero__inner {
         flex-direction: column;
@@ -221,6 +225,16 @@
 
     .staff-item:nth-child(even) .staff-item__img-wrap::after {
         top: 6px;
+    }
+
+    .meme-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .meme-img {
+        width: 300px;
     }
 }
 
