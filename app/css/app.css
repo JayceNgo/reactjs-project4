@@ -1200,7 +1200,7 @@ select {
 
 /* Footer */
 .footer {
-    margin-top: 52px;
+    padding-top: 52px;
     background: #fff6ed;
 }
 

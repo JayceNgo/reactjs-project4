@@ -92,8 +92,8 @@
     }
 
     /* hero */
-    .hero__media {
-        display: none;
+    .hero__inner {
+        flex-direction: column;
     }
     .hero__content {
         display: flex;
@@ -227,6 +227,9 @@
 /* Mobile */
 @media screen and (max-width: 767.98px) {
     .header-action {
+        display: none;
+    }
+    .hero__img-wrap-small {
         display: none;
     }
     .hero__heading {

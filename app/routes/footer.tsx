@@ -224,7 +224,7 @@ export default function Footer() {
                     </div>
 
                     <p className="footer__copyright">
-                        Copyright & Design By Uihut
+                        Copyright Front-End Develop by Ngo Tran Manh Hiep
                     </p>
                 </div>
             </div>
