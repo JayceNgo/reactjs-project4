@@ -218,6 +218,10 @@
     .menu-drawer .navbar__link {
         font-size: 3rem;
     }
+
+    .staff-item:nth-child(even) .staff-item__img-wrap::after {
+        top: 6px;
+    }
 }
 
 /* Mobile */
@@ -251,6 +255,9 @@
         display: none;
     }
 
+    .staff-item:nth-child(even) .staff-item__img-wrap::after {
+        top: -8px;
+    }
     .pricing__desc {
         width: auto;
     }
