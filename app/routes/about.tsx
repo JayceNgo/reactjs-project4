@@ -7,7 +7,7 @@ export default function About() {
                     <section className="about__content">
                         <p className="about__label">// About //</p>
                         <h2 className="about__heading section-heading">
-                            Chào chị Phương Ly Xinh đẹp. Em tên là Hiệp.
+                            Best Agency For Your Pet.
                         </h2>
                         <p className="about__desc section-desc">
                             Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -45,7 +45,7 @@ export default function About() {
                         {/* <!-- About image wrapper --> */}
                         <figure className="about__img-wrap">
                             <img
-                                src="/img/ig.png"
+                                src="/img/about-01.png"
                                 alt=""
                                 className="about__img"
                             />
